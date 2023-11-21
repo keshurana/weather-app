@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="box-one">
+            <form action="#">
+                <div class="search">
+                    <input type="text" id="city" placeholder="search your city here..." autocomplete="off">
+                    <button id="btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+            </form>
+
+            <div class="temp">
+                <div class="location-not-found">
+                    <h1>Sorry, Location not found!!!</h1>
+                    <img src="./image//404.png" alt="404 Error">
+                </div>
+                <div class="heading">
+                    <img src="" id="img">
+                    <div class="degree">
+                        <h2 class="temperature"></h2>
+                        <h2 class="status"></h2>
+                        <h2 class="city"></h2>
+                    </div>
+                    <!-- <div class="extraInfo">
+                        <h2 class="Humidity"></h2>
+                        <h2 class="Wind"></h2>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="box-two">
+            <div class="day"></div>
+            <div class="calender">
+                <div class="calenderMonth"></div>
+                <div class="calenderDay"></div>
+                <div class="calenderYear"></div>
+            </div>
+            <div class="time"></div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
